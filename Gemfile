@@ -62,6 +62,7 @@ group :development, :test do
 
   # for director
   gem "machinist", "~>1.0"
+  gem "blueprints"
 
   # for root level specs
   gem "rest-client"
