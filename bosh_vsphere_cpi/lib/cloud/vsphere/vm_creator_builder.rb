@@ -14,6 +14,7 @@ module VSphereCloud
         cpi,
         agent_env,
         file_provider,
+        cloud_properties['nested_hv_enabled'],
       )
     end
   end
